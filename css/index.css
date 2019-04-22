@@ -237,6 +237,16 @@ h1 {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  width: 25%;
+  height: 10%;
+  padding: 5px;
+  background-color: #23293B;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 5px;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
