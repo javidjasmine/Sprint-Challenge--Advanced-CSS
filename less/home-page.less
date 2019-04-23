@@ -1,5 +1,7 @@
 // Home Content
 
+
+
 h1 {
 display: flex;
 justify-content: center;
@@ -11,10 +13,15 @@ padding-top: 10px;
 .home {
 
   .intro {
-
+    
     .header-img {
       border-radius: 5px;
+      @phone {
+        width: 50%;
+      }
+      
     }
+   
 
     h2 {
       padding: 15px;
@@ -30,12 +37,16 @@ padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    }
 
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+    }
+    
+      
     }
   }
 
@@ -78,6 +89,11 @@ padding-top: 10px;
         font-size: 2rem;
         text-align: center;
         border-radius: 5px;
+        @phone {
+          width: 100%;
+        }
+
+  
       }
     }
 
